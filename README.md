@@ -22,7 +22,7 @@ GoGEOS is a Go wrapper for the GEOS (Geometry Engine Open Source) library, provi
 ### Install GoGEOS
 
 ```bash
-go get github.com/mehmetymw/gogeos
+go get github.com/mehmetymw/gogeos@latest
 ```
 
 ## Quick Start
