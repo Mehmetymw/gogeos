@@ -1,4 +1,4 @@
-module github.com/yourusername/gogeos
+module github.com/mehmetymw/gogeos
 
 go 1.18
 

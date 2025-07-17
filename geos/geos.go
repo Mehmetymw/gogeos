@@ -20,7 +20,7 @@
 //	import (
 //		"fmt"
 //		"log"
-//		"github.com/yourusername/gogeos/geos"
+//		"github.com/mehmetymw/gogeos/geos"
 //	)
 //
 //	func main() {
@@ -673,10 +673,10 @@ func (s *Service) Union(geometries []*Geometry) (*Geometry, error) {
 //
 //	poly1 := GeometryInput{WKT: "POLYGON((0 0, 4 0, 4 4, 0 4, 0 0))"}
 //	poly2 := GeometryInput{WKT: "POLYGON((1 1, 3 1, 3 3, 1 3, 1 1))"}
-//	
+//
 //	geom1, _ := service.ParseGeometry(poly1)
 //	geom2, _ := service.ParseGeometry(poly2)
-//	
+//
 //	difference, err := service.Difference(geom1, geom2)
 //	// difference will be poly1 with a hole where poly2 was
 func (s *Service) Difference(a, b *Geometry) (*Geometry, error) {

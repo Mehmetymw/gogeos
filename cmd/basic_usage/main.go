@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/yourusername/gogeos/geos"
+	"github.com/mehmetymw/gogeos/geos"
 )
 
 func main() {
